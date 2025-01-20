@@ -1,0 +1,44 @@
+:root {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: $primaryText;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  min-width: 0px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 1200px;
+  background: rgb(245, 248, 249);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 248, 249, 1) 0%,
+    rgba(234, 241, 252, 1) 29%,
+    rgba(233, 237, 248, 1) 50%,
+    rgba(233, 237, 248, 1) 77%,
+    rgba(243, 245, 248, 1) 100%
+  );
+}
+
+#app {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}

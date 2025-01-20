@@ -1,0 +1,25 @@
+// Wrapper
+.filter-bar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 1rem;
+}
+
+// Inputs
+.filter-bar__input {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+// Label for the inputs
+form label {
+  margin-right: 10px;
+}

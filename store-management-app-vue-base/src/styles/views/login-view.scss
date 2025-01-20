@@ -1,0 +1,22 @@
+// Each form item with an input
+.login-form-item {
+  margin-bottom: 20px;
+}
+
+// Label for the input
+.login-form-item label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+// Inputs
+.login-form-item input,
+.login-form-item select,
+.login-form-item textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 300px;
+}

@@ -1,0 +1,45 @@
+// Container when user is logged
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  // Image
+  .user__image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: $secondary;
+    padding: 10px;
+  }
+
+  // Rest of the user info
+  .user__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+
+  // Logout button
+  .button--logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 5px 10px;
+    background-color: $primaryText;
+    color: $white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $primary;
+    }
+
+    img {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}

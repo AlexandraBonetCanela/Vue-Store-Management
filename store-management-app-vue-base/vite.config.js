@@ -9,11 +9,12 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  base: '/',
   css: {
     preprocessorOptions: {
       scss: {
         additionalData: `
-          @import "./src/styles/variables/colors.scss";
+          @import "@/styles/variables/colors.scss";
         `
       }
     }

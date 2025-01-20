@@ -1,0 +1,14 @@
+// Action buttons for each row of the table
+.action-buttons {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  width: 140px;
+}
+
+// Button for adding a new invoice
+.button-container-add {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,39 @@
+// Card wrapper
+.product {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    place-items: center;
+    gap: 1rem;
+}
+
+.product:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+// Image inside the card
+.product__image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+// Card title
+.product__info h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1.2rem;
+}
+
+// Card description
+.product__info p {
+    margin-bottom: 0.5rem;
+}

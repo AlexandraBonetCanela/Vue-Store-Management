@@ -1,0 +1,68 @@
+// Main container
+.app {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "nav main";
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+// Header
+.main-header {
+  grid-area: header;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  .logo {
+    height: 100%;
+  }
+}
+
+// Navigation
+.main-nav {
+  grid-area: nav;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+// Item navigation list
+.main-nav__item {
+  color: $white;
+  font-weight: bold;
+  background-color: $primary;
+  padding: 1rem 2rem;
+  display: block;
+  border-radius: 18px;
+}
+
+//.main-nav__item.active {
+//  background-color: $secondary;
+//}
+
+.main-nav__item.router-link-active {
+  background-color: $secondary;
+}
+
+// Container for the main content
+.container {
+  grid-area: main;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 18px;
+  min-height: 400px;
+}
